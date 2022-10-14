@@ -9,7 +9,10 @@ public class ArrayListdemo {
 
 		List<String> list = Arrays.asList("Ram","Sham","Ahana","Saara");
 		
-		System.out.println(list);
+		for(String s: list) {
+        System.out.println(s);
+
+		}
 	}
 
 }
